@@ -10,7 +10,7 @@ import {Component, ViewEncapsulation} from '@angular/core';
             color: green;
         }
     `],
-    encapsulation: ViewEncapsulation.None
+    encapsulation: ViewEncapsulation.ShadowDom
 })
 export class GreenComponent {
 }
