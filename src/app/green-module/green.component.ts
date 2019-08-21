@@ -4,12 +4,7 @@ import {Component} from '@angular/core';
     selector: 'app-green',
     template: `
         <p>Green paragraph!</p>
-    `,
-    styles: [`
-        p {
-            color: green;
-        }
-    `]
+    `
 })
 export class GreenComponent {
 }
