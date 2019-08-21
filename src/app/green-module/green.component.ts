@@ -5,11 +5,6 @@ import {Component, ViewEncapsulation} from '@angular/core';
     template: `
         <p>Green paragraph!</p>
     `,
-    styles: [`
-        p {
-            color: green;
-        }
-    `],
     encapsulation: ViewEncapsulation.None
 })
 export class GreenComponent {
