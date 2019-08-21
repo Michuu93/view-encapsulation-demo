@@ -4,7 +4,6 @@ import {Component} from '@angular/core';
     selector: 'app-root',
     template: `
         <app-red></app-red>
-        <app-green></app-green>
         <app-blue></app-blue>
     `
 })
