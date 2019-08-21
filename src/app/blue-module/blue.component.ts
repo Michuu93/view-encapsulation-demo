@@ -3,6 +3,7 @@ import {Component} from '@angular/core';
 @Component({
     selector: 'app-blue',
     template: `
+        <app-green></app-green>
         <p>Blue paragraph!</p>
     `,
     styles: [`
