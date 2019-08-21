@@ -6,8 +6,7 @@ import {Component} from '@angular/core';
         <app-red></app-red>
         <app-green></app-green>
         <app-blue></app-blue>
-    `,
-    styles: []
+    `
 })
 export class AppComponent {
 }
