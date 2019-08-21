@@ -1,4 +1,4 @@
-import {Component, ViewEncapsulation} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
     selector: 'app-green',
@@ -9,8 +9,7 @@ import {Component, ViewEncapsulation} from '@angular/core';
         p {
             color: green;
         }
-    `],
-    encapsulation: ViewEncapsulation.None
+    `]
 })
 export class GreenComponent {
 }
